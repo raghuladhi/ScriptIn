@@ -1,0 +1,32 @@
+{
+        "manifest_version": 2,
+        "name": "ScriptIn",
+        "version": "1.0",
+
+        "description": "Insert scripts into Websites",
+        
+        "browser_action": {
+                "default_popup": "./html/popup.html",
+                "default_title": "Open the popup",
+                "default_icon": {
+                        "16": "./images/icon-16.png",
+                        "32": "./images/icon-32.png",
+                        "48": "./images/icon-48.png",
+                        "128": "./images/icon-128.png"
+                }
+        },
+        "content_scripts": [
+                {
+                        "matches": ["<all_urls>"],
+                        "js": ["./js/contentscript.js"]
+                }
+        ],
+    
+        "icons": {
+                "16": "./images/icon-16.png",
+                "32": "./images/icon-32.png",
+                "48": "./images/icon-48.png",
+                "128": "./images/icon-128.png"
+        }
+        
+}

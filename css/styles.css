@@ -1,0 +1,35 @@
+/************************************** Parent Container ******************************************/
+body{
+        min-width:300px;
+}
+.parent-div{
+	padding: 20px 0 30px 0;
+	background-color: #222222;
+	color: white;
+}
+.title-div{
+        font-size: 30px;
+        font-family: 'Source Code Pro', monospace;
+}
+/**************************************  Form ******************************************/
+.form-area{
+        padding-top:10px;
+}
+.input-small{
+	width:90%;
+	background: rgba(255, 255, 255, 0.025);
+	border-color: rgba(255, 255, 255, 0.5);
+	color: #ffffff;
+}
+.btn-contact{
+	border-width: 2px;
+	border-radius: 0;
+	border-color: #ffffff;
+	color: #ffffff;
+	transition: all 0.2s;
+	width: 100px;
+}
+.btn-contact:hover, .btn-contact:focus{
+	color: #222222;
+	background-color: #ffffff;
+}
